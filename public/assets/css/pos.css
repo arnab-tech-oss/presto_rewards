@@ -1,0 +1,29 @@
+    .verti-dash-content, .dash-troggle-icon, .verti-dash-content,
+    .footer{
+        display: none;
+    }
+    #page-topbar{
+        margin-left: 0 !important;
+		display: none;
+    }
+    .main-content{
+        margin-left: 0 !important;
+    }
+	#page-topbar.pos-header{
+		display: block !important;
+	}
+	.pos-header .navbar-header{
+		    height: 65px !important;
+	}
+	body:not([data-sidebar-size=sm]) .navbar-header .vertical-menu-btn{
+		display: block !important;
+	}
+	body[data-sidebar-size=sm] .vertical-menu {
+		width: 0 !important;
+		overflow: hidden;
+	}
+	body[data-sidebar-size=sm] .navbar-brand-box{
+		    width: 0 !important;
+			overflow: hidden;
+			padding: 0;
+	}
